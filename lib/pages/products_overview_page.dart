@@ -6,7 +6,6 @@ import 'package:shop/components/product_grid.dart';
 import 'package:shop/models/cart.dart';
 import 'package:shop/models/product_list.dart';
 import 'package:shop/utils/app_routes.dart';
-import 'package:shimmer/shimmer.dart';
 
 enum FilterOptions { Favorite, All }
 

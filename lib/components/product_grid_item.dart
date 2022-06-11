@@ -36,7 +36,7 @@ class ProductGridItem extends StatelessWidget {
               },
               icon: Icon(
                   product.isFavorite ? Icons.favorite : Icons.favorite_border),
-              color: Theme.of(context).accentColor,
+              color: Theme.of(context).colorScheme.secondary,
             ),
           ),
           trailing: IconButton(
@@ -54,7 +54,7 @@ class ProductGridItem extends StatelessWidget {
               );
             },
             icon: Icon(Icons.shopping_cart),
-            color: Theme.of(context).accentColor,
+            color: Theme.of(context).colorScheme.secondary,
           ),
           title: Text(
             product.name,
